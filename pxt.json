@@ -1,5 +1,5 @@
 {
-    "name": "EXPERIMENTO 123}",
+    "name": "metal slug",
     "description": "",
     "dependencies": {
         "device": "*",
@@ -24,7 +24,7 @@
         "branch": "v1.12.61",
         "tag": "v1.12.61",
         "commits": "https://github.com/microsoft/pxt-arcade/commits/ca55e606e8e9dc22645e01ace221016fe52ca101",
-        "target": "1.12.61",
+        "target": "2.0.40",
         "pxt": "8.5.71",
         "targetId": "arcade"
     },
@@ -47,7 +47,7 @@
         "#B14000",
         "#383010",
         "#706839",
-        "#B9B171",
+        "#684233",
         "#88571F"
     ]
 }
