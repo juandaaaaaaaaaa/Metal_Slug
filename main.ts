@@ -21,11 +21,11 @@ controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
     )
 })
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
-    animation.setAction(mySprite, ActionKind.Jumping)
+    animation.setAction(mySprite, ActionKind.Walking)
     animation.runImageAnimation(
     mySprite,
     assets.animation`saltar`,
-    200,
+    90,
     false
     )
 })
@@ -34,6 +34,5 @@ mySprite = sprites.create(assets.image`Marco Rossi0`, SpriteKind.Player)
 forever(function () {
     controller.moveSprite(mySprite)
     scene.cameraFollowSprite(mySprite)
-    scene.setTileMap(assets.image`campo`)
     tiles.setCurrentTilemap(tilemap`nivel2`)
 })
